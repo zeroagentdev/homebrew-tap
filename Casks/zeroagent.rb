@@ -1,9 +1,9 @@
 cask "zeroagent" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.23.0"
-  sha256 arm:   "f605bd3c2b19bf0d726c0a8b08244c952e031bce2c8cf19efd6be5511f2564ab",
-         intel: "d0b3f428eb8f0992e1a50f8f7979bc2184a9d8c63fa82f1eead40dc1c90f0975"
+  version "0.24.0"
+  sha256 arm:   "4d97b43b205c0c8723c8af38de75d0553f76be00d3781e00ab38dfb91aefa879",
+         intel: "9bfeb278a44f8e65f7ea6cdd53e9d2f2613730057a1f83ea8880de350f85595f"
 
   url "https://releases.zeroagenthq.com/ZeroAgent-#{version}-#{arch}.dmg"
   name "ZeroAgent"
